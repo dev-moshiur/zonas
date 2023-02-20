@@ -1,0 +1,352 @@
+.p-r {
+    position: relative;
+}
+
+.note {
+    position: absolute;
+    top: -8px;
+    left: 70px;
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 47%;
+    border: 1px solid #0162e8;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.vector {
+    height: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    background-size: contain !important;
+}
+
+#fondo {
+    background: white;
+    height: 430px;
+    width: 237px;
+    position: relative;
+    top: 50px;
+    z-index: 999;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hrz-border {
+    border: 1px solid #fff;
+    border-bottom: 1px solid #ccc !important;
+    padding: 10px 0px 10px 0px;
+    transition: all 0.3s;
+}
+
+.hrz-border:hover {
+    border: 1px solid #0162e8 !important;
+}
+
+.hrz-border-active {
+    border: 1px solid #0162e8 !important;
+}
+
+.tab-pane .active {
+    background-color: #283593 !important;
+}
+
+ #map {
+        height: 600px;
+    }
+
+#contenedor{
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.qr-view {
+    width: 300px;
+    height: 300px;
+    display: none
+}
+
+.i-class {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.content-i-qrcode {
+    display: flex;
+    align-items: center;
+}
+
+.vtimeline .timeline-wrapper .timeline-panel .timeline-title {
+    font-size: .8rem;
+    font-weight: 700;
+    margin: 0 0 .625rem;
+}
+
+.opacity-time {
+    opacity: .4;
+}
+
+.vtimeline .timeline-wrapper .timeline-badge {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.vtimeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #d1d4e4;
+    left: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    right: 0;
+}
+
+.rejected-message {
+    margin-left: 5px;
+    color: #e6e6e6;
+    font-size: 13px;
+}
+
+.coffe-order {
+    font-size: 130px;
+    color: #bbbbbb;
+}
+
+.text-order {
+    font-size: 20px;
+    color: #bbbbbb;
+}
+
+.border-right {
+    border-right: 1px solid #ccc;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    right: 21px;
+}
+
+.aling-cent {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.accordion .card-header a {
+    display: block;
+    padding: 14px 0px;
+    color: #242f48;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: white !important;
+}
+
+.accordion .card-body .input-group {
+    margin-bottom: 0px !important;
+}
+
+.collapse .card-body {
+    padding-left: 50px;
+}
+
+.accordion .card-body {
+    padding: 20px 20px;
+    background: #8080800a;
+    transition: none;
+}
+
+.combinations-text {
+    position: relative;
+}
+
+.combinations-text .col-lg-6 {
+    display: inline-flex;
+}
+
+.ps-btn {
+    top: 19px;
+    right: 18px;
+}
+
+.main-avatar-details {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 37px;
+    background-color: #4d5875;
+}
+
+.btn-file {
+    margin-top: 35px !important;
+}
+
+.card-visor {
+    position: fixed;
+    width: 28%;
+}
+
+.image-cover {
+    height: 200px !important;
+    background-size: cover !important;
+}
+
+.card-footer .price-holder {
+    position: relative;
+}
+
+.card-footer .price-holder a {
+    position: absolute;
+    right: 10px;
+    border: 2px solid #0056b3;
+    padding: 5px 6px;
+    border-radius: 58%;
+}
+
+.card-footer {
+    height: 60px;
+    background: white;
+    border: none !important;
+}
+
+.aria-expanded-combinatios {
+    display: flex !important;
+}
+
+.aria-expanded-combinatios div select {
+    margin-left: 10px;
+}
+
+.fr-select {
+    position: absolute;
+    top: 8px;
+    width: 222px;
+    left: 251px;
+}
+
+.vineta {
+    list-style: none;
+}
+
+.aria-expanded-combinatios {
+    align-items: center;
+}
+
+.label-required {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.fr-select-option {
+    width: 100px;
+}
+
+.btn-only-update {
+    display: inline-block;
+    background-color: #00cccc;
+    padding: 9px 25px;
+    line-height: 1.573;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.nuevo-pedido {
+    position: absolute;
+    top: -13px;
+    z-index: 1;
+    right: -15px;
+    background: #efb810;
+    color: white;
+    padding: 2px 5px;
+}
+
+.opacity-medium {
+    opacity: .5;
+}
+
+.opacity-medium i {
+    font-size: 30px;
+}
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #242058; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
