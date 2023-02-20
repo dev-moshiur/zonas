@@ -312,6 +312,20 @@ nav .header_box03 {
   box-shadow: var(--bx03);
   animation: shakeCart 1s ease-in-out forwards;
 }
+.deleteoption{
+  margin-top:20px !important;
+}
+.containermainM{
+  width:100% !important;
+  margin:0 auto !important;
+  max-width:840px !important;
+}
+.mainContainerm{
+  margin: 50px auto !important;
+  padding: 0 !important;
+  width: 94% !important;
+  max-width: 840px !important;
+}
 .containerm{
   display: flex !important;
   justify-content: center !important;
@@ -320,6 +334,7 @@ nav .header_box03 {
   margin: 20px 0px;
   width: 100% !important;
 }
+
 .indexm{
   width: 30px;
   height: 30px;
