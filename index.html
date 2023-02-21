@@ -412,7 +412,7 @@
         
         if (selectedShapes[sh]) {
           selectedShapes[sh].shape.set('strokeWeight', 2.5);
-          selectedShapes[sh].shape.set('strokeColor','#a691d4');
+          //selectedShapes[sh].shape.set('strokeColor','#a691d4');
           
           selectedShapes[sh].shape.set('zIndex', );
         }
@@ -420,7 +420,7 @@
       // let colornow = `${colors[idVar]}`
       selectedShape.set('strokeWeight', 7);
       selectedShape.set('fillOpacity', 0.5);
-      selectedShape.set('strokeColor','#a691d4');
+      //selectedShape.set('strokeColor','#a691d4');
       selectedShape.set('zIndex', 2);
     }
 
@@ -431,7 +431,7 @@
         if (selectedShapes[sh]) {
           let colornow = `${colors[idVar]}`
           selectedShapes[sh].shape.set('strokeWeight', 4.5);
-          selectedShapes[sh].shape.set('strokeColor','#a691d4');
+          //selectedShapes[sh].shape.set('strokeColor','#a691d4');
            
           selectedShapes[sh].shape.set('zIndex', 7);
         }
@@ -665,6 +665,8 @@
 
         newShape.set('id', idVar);
         newShape.set('fillColor', colors[idVar]);
+newShape.set('strokeColor',colors[idVar])
+
         //~ }// end if
       });
 
